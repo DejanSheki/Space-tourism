@@ -31,6 +31,7 @@ module.exports = {
         '1440': '1440px',
         '473': '473px',
         '830': '830px',
+        '34-r': '34rem'
       },
       maxWidth: {
         'sm': '375px',
@@ -51,6 +52,9 @@ module.exports = {
       boxShadow: {
         '3xl': '0 0 0 80px rgb(36, 38, 47)'
       },
+      spacing: {
+        '57': '57rem'
+      }
     },
     colors: {
       darkBlue: 'rgb(11, 13, 23)',

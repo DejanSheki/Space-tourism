@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import Nav from './components/Nav';
 import Home from './pages/Home';
-import Destination from './pages/Destination';
+import Destinations from './pages/Destinations';
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
 
@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/destination' element={<Destination />} />
+        <Route path='/destinations' element={<Destinations />} />
         <Route path='/crew' element={<Crew />} />
         <Route path='/technology' element={<Technology />} />
       </Routes>
